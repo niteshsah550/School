@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Apex </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            width: 100%;
+            background-color: rgb(114, 145, 125);
+            background-position: center;
+            background-size: cover;
+            height: 90vh;
+
+        }
+
+        .navbar {
+            width: 100%;
+            height: 75px;
+            margin: auto;
+            background-color: rgb(104, 64, 64);
+        }
+
+        .menu {
+            width: 400px;
+            float: left;
+            height: 70px;
+        }
+
+        ul {
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        ul li {
+            list-style: none;
+            margin-left: 62px;
+            margin-top: 27px;
+            font-size: 14px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: rgb(223, 218, 218);
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-weight: bold;
+            transition: 0.4s ease-in-out;
+
+        }
+
+        ul li a:hover {
+            color: aqua;
+        }
+
+        footer {
+            background-color: rgb(102, 141, 125);
+            height: 10vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="class.html">CLASS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="contact us">
+            <h1 class="text-center">Contact us </h1>
+            <div class="form">
+                <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+                <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your phone">
+                <input class="form-input" type="text" name="email" id="email" placeholder="Enter your email">
+                <textarea class="form-input" name="text" id="text" cols="10" rows="5"
+                    placeholder="Ellaborate your concern"></textarea>
+                <button class="btn btn-sm">Submit</button>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="center">Copyright &copy;2022 </p>
+        <p class="center">All right reserved to Apex school</p>
+    </footer>
+
+</body>
+
+</html>
